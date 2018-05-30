@@ -1,0 +1,17 @@
+$(function(){
+				$(".width").hover(function(){
+					$(".cang").css("display","block");
+				},function(){
+					$(".cang").css("display","none");
+				})
+				,$(".xian").hover(function(){
+					$(".width1").css("display","block")
+				},function(){
+					$(".width1").css("display","none")
+				})
+				,$(".xian1").hover(function(){
+					$(".he").css("display","block")
+				},function(){
+					$(".he").css("display","none")
+				})
+			})
