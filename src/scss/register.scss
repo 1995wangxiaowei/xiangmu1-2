@@ -9,7 +9,6 @@ i,em{font-style:normal;}
 body{font:14px/1em "微软雅黑",arial;}
 table{border-collapse:collapse;}
 
-
 .top{height: 30px;background: #eee;}
 .left li{float: left;line-height: 30px;margin-left:10px;text-align: center;}
 .left .width{width: 60px;position: relative;}
@@ -45,34 +44,27 @@ table{border-collapse:collapse;}
 .right .he .left2 img{width: 100px;height: 100px; padding-left: 26px;padding-top: 16px;}
 .right .he .right2{float: right;padding-right: 50px;padding-top:20px;}
 
-.row{height: 120px;}
-.row img{padding-top: 20px;}
-.row ul li{float: left;width: 70px;text-align: center;border-right: 1px solid #eee;}
-.row ul li:hover{background: #eee;}
-.col-md-5{margin-top: 40px;}
-.col-md-5 .no{border-right: none;}
-.col-md-3 input{float: left; margin-top: 18px;border: none;border-bottom: 1px solid #000;}
-.col-md-3 img{border: none;border-bottom: 1px solid #000;}
-.col-md-3 p{clear:both; font-size: 12px;}
-
-.banane{height: 200px;border-bottom: 1px solid #ddd;}
-.banane ul li{float: left; margin-top: 20px;width: 25%;}
-
-.img1,.img1-1,.img1-2,.img1-3{height: 68px;line-height: 68px;}
-.img1 img,.img1-1 img,.img1-2 img,.img1-3 img{display: inline-block;}
-.img1 span,.img1-1 span,.img1-2 span,.img1-3 span{float: right;}
+.logo{height: 120px;line-height:120px;border-bottom: 1px solid #ddd;clear: both;}
+.logo img{padding-top: 20px;}
 
 
+.kong{height:60px;}
 
-.img2,.img3,.img5{height: 670px;border-bottom: 1px solid #ddd;}
-.img4{height: 330px;border-bottom: 1px solid #ddd;}
-.img2 ul li,.img3 ul li,.img4 ul li,.img5 ul li{float: left;margin-left: 10px;width: 240px;height: 288px;}
-.img2 img,.img3 img,.img4 img,.img5 img{width: 240px;height: 240px;}
-.img2 .chao,.img3 .chao,.img4 .chao,.img5 .chao{width: 240px;height: 240px;overflow: hidden;}
-.img2 .gou,.img3 .gou,.img4 .gou,.img5 .gou{width: 240px; height:48px;padding-top: 5px;}
-.img2 .gou p,.img3 .gou p,.img4 .gou p,.img5 .gou p{line-height:1.5;width: 140px;float: left;color: black;font-size: 14px;}
-.img2 .gou p span,.img3 .gou p span,.img4 .gou p span,.img5 .gou p span{color:#9c9b97;font-size: 13px;}
-.img2 .gou div,.img3 .gou div,.img4 .gou div,.img5 .gou div{background: url(../img/zhuimg/icons.png) -518px -243px no-repeat;float: right; width: 32px;height: 32px;margin-top: 8px;}
+.zhuce{width:1000px;height:570px;margin: 0 auto;}
+.zhuce h6{font-size:20px;color: #C0C0C0;padding-left: 20px;border-bottom: 1px solid #ddd;margin-bottom: 20px;padding-bottom: 20px;}
+.zhuce .zuo{float: left;width: 500px;height: 500px;}
+.zhuce .you{float: right;width: 500px;height: 500px;}
+.zhuce .zuo{position: relative;}
+.zhuce .zuo input{width: 154px;height: 42px;border: 1px solid #64a131;background: #fff;font-size: 20px;border-radius: 5%;position: absolute;left: 174px;top: 326px;}
+
+.zhuce .you{text-align: center;}
+.zhuce .you input{border: 1px solid #ddd;margin-left: 50px;}
+.zhuce .you .wei{margin-left: 76px;}
+.zhuce .you .wei1{margin-left: 72px;}
+.zhuce .you #btn{margin-top: 20px;border: 1px solid #64a131;width: 70px;height: 30px;background: #fff;border-radius: 5%;}
+.zhuce .you span{margin-left: 100px;}
+.zhuce .you .p{height: 40px;margin-top: 30px;}
+#con1,#con2,#con3{display: none;color:red;}
 
 
 .si .row{height: 106px;border-bottom: 1px solid #ddd;}
