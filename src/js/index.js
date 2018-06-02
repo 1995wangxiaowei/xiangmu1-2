@@ -67,8 +67,17 @@ $(function(){
 
 			$(function(){
 				  $("#top").click(function() {
-				      $("html,body").animate({Top:0},100);
+				      $("html,body").animate({Top:0},4000);
 				  }); 
 				 })
-			
+			$(function(){
+				 var $Lis= $(".tu li");
+				 $.each($Lis, function(){
+					$(this).hover(function(){
+						$Lis.addclass("box-shadow")
+					},function(){
+						$Lis.animate()
+						})
+					})
+				 })
 			
