@@ -8,13 +8,8 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<script src="js/jquery-1.11.3.js"></script>
 		<script src="js/bootstrap.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/register.min.css"/>
-		<script type="text/javascript">
-			 window.onload = function (){
-
-      	 	createCode();
-   			}
-		</script>
+		<link rel="stylesheet" type="text/css" href="css/register1.min.css"/>
+		
 	</head>
 	<body>
 		<div class="top">
@@ -91,34 +86,28 @@
 			
 		</div>
 		<div class="zhuce">
-			<h6>注册会员</h6>
+			<h6>会员登录</h6>
 			<div class="zuo">
 				<img src="img/img3/huiyuan.jpg"/>
-				<a href="register1.html"><input type="button" name="btn" id="btn" value="会员登录>" /></a>
+				<a href="register.html"><input type="button" name="btn" id="btn" value="会员注册>" /></a>
 			</div>
 			<div class="you">
-			<div class="p">
-			<form action="" method="post">
-				<p >手机：<input type="text" id = "txt1" value="" class="wei"/><br /><span id = "con1"> *必须是11位数字,您的输入有误</span></p>	
+				<div class="y">
+				<form action="" method="post">
+					<p>手机号<input type="text" name="txt" id="txt" value="" class="wei1"/></p>	
 				</div>
-				<div class="p">
-				<p>密码：<input type="password" name="" id="txt2" class="wei"/><br /><span id = "con2"> *包含字母数字下划线6-18位</span></p>
+				<div class="y">
+					<p>密码<input type="text" name="txt" id="txt" value="" class="wei"/></p>					
 				</div>
-				<div class="p">
-				<p>确认密码：<input type="password" name="" id="txt3"/><br /><span id = "con3"> *账号密码不一致</span></p>
+				<div class="y">
+				<p><input type="checkbox" name="" id="" value="" class="wei"/>记住密码<a href="#"><span>忘记密码，快速登录</span></a></p>					
 				</div>
-				<div class="p d">
-				<p>验证码：<input type="text" name="" id="txt4" class="wei1"/>
-				<input type="text" id="code" value="" onclick="createCode()"/></p>
-				<span id = "con4"> *验证码错误</span>
+				<div class="y">
+				<input type="button" name="btn" id="btn" value="登录" />
+				<a href="register.html"><input type="button" id="btn" value="会员注册" /></a>					
 				</div>
-				<div class="p">
-				<p>手机验证码：<input type="text" name="" id="" /></p>
-				</div>
-				<a href="register1.html"><input type="button" name="btn" id="btn" value="会员登录" /></a>
-				<input type="submit" id="btn" value="注册" /></a>
-			</div>			
-			</form>
+				</form>				
+			</div>
 		</div>
 		<!--四个图片-->
 	<div class="container-fluid si">
