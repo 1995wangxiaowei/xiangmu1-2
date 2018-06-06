@@ -3,7 +3,7 @@ $(function(){
 					$(".cang").css("display","block");
 				},function(){
 					$(".cang").css("display","none");
-				})
+				})  
 				,$(".xian").hover(function(){
 					$(".width1").css("display","block")
 				},function(){
@@ -49,7 +49,7 @@ $(function(){
 						var $img = $(this).find("img");
 						$img.animate({width : 240,height :240},200)
 						})
-					})
+					}) 
 				 })
 
 			$(function(){
@@ -67,17 +67,7 @@ $(function(){
 
 			$(function(){
 				  $("#top").click(function() {
-				      $("html,body").animate({Top:0},4000);
+				      $("html").animate({Top:0},4000);
 				  }); 
 				 })
-			$(function(){
-				 var $Lis= $(".tu li");
-				 $.each($Lis, function(){
-					$(this).hover(function(){
-						$Lis.addclass("box-shadow")
-					},function(){
-						$Lis.animate()
-						})
-					})
-				 })
-			
+		 

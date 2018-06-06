@@ -11,7 +11,7 @@ gulp.task('sass',function(){
 })
 //压缩js/重命名js/合并js
 gulp.task('js',function(){
-	gulp.src('src/js/*.js').pipe(uglify()).pipe(rename({"suffix":'.min'})).pipe(gulp.dest('js'));
+	gulp.src('src/js/*.js').pipe(rename({"suffix":'.min'})).pipe(gulp.dest('js'));
 })
 //监听
 gulp.task('watch',function(){
