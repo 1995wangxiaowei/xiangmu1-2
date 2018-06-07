@@ -37,8 +37,6 @@
 		//小图轮播
 		if(nowPic===0){
 			sport;
-		}else{
-			sport
 		}
 		//初始化小图的透明度
 		for(var i=0,len=oXiaoImg.length;i<len;i++){
@@ -74,4 +72,35 @@ $(function(){
 	},function(){
 		$(".erweima1").css("display","none")
 	})
+
+})
+$(function(){
+	var si1 = $(".s>.s1");
+	var dizhi = $(".s>.dizhi");
+	var cha = $(".dizhi>.cha")
+	$(".s1").hover(function(){
+		$(".dizhi").css("display","inline")
+	},function(){	
+		$(".dizhi").css("display","none")
+	})
+	$(".cha").click(function(){
+		$(".dizhi").css("display","none")
+	})
+})
+
+$(document).ready(function(){
+//加的效果
+$(".add").click(function(){
+var n=$(this).prev().val();
+var num=parseInt(n)+1;
+if(num==0){ return;}
+$(this).prev().val(num);
+});
+//减的效果
+$(".jian").click(function(){
+var n=$(this).next().val();
+var num=parseInt(n)-1;
+if(num==0){ return}
+$(this).next().val(num);
+});
 })

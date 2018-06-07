@@ -1,16 +1,19 @@
-	var	oTxt1 = document.getElementById("txt1");
+			var	oTxt1 = document.getElementById("txt1");
 			var oTxt2 = document.getElementById("txt2");
 			var oTxt3 = document.getElementById("txt3");
 			var oCon1 = document.getElementById("con1");
 			var oCon2 = document.getElementById("con2");
 			var oCon3 = document.getElementById("con3");
 			var oCon4 = document.getElementById("con4")
+			var oBtn = document.getElementById("btn1")
 	
+			var num = 0;
 			oTxt1.onblur= function(){
 				var str = oTxt1.value;
 				var re = /^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$/;
 				if(re.test(str)){
-					oCon1.style.display="none";				
+					oCon1.style.display="none";	
+					num ++;
 				}else{
 					oCon1.style.display="inline";
 				}
@@ -20,7 +23,8 @@
 				var str = oTxt2.value;
 				var re = /^\w{6,18}$/;
 				if(re.test(str)){
-					oCon2.style.display="none";			
+					oCon2.style.display="none";	
+					num ++;
 				}else{
 					oCon2.style.display="inline";
 				}
@@ -31,7 +35,7 @@
 				var re = /^\w{6,18}$/;
 				if(re.test(str)){
 					oCon3.style.display="none";
-				
+					num ++;
 				}else{
 					oCon3.style.display="inline";
 				}if(oTxt2.value ===oTxt3.value){
@@ -55,10 +59,22 @@
    	oTxt4.onblur = function(){   		
    		if(codeV.value ===oTxt4.value){
    			oCon4.style.display="none";
+   			num ++
    		}else{
    			oCon4.style.display="inline";
    		}
    	}
+   	//提交
+		oBtn.onclick = function(){
+			if(num==4){
+				alert("注册成功！");
+			}else{
+				alert("注册失败！请完善信息！")
+			}
+				
+			}
+
+   	
    	
    	
 			

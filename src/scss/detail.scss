@@ -63,12 +63,12 @@ a:hover{text-decoration: none;}
 .lunbo{padding-top: 10px;}
 .lunbo input{border: none;background: #fff;color: #67a43d;padding-bottom: 10px;}
 
+
 #box{width: 50%;height: 500px;float: left;}
 #right1{position: relative;}
 #right1 li{position: absolute;}
 #right1 img{width: 500px;height: 500px;position: absolute;left: 130px;padding: 10px;}
 #left1 #small-ul li img{height: 124px;width: 130px;padding: 6px;}
-
 .jieshao{width: 50%;height: 500px;float: right;padding: 5px;position: relative;}
 .jieshao .bei{background: url(../img/img4/icons.png) -446px -495px no-repeat;width: 50px;height: 30px;display: inline-block;margin-top: 10px;float: left;margin-left: 20px;}
 .jieshao .yi{display:block;font-size: 20px;width: 150px;height: 30px;float: left;margin-top: 16px;padding-left: 10px;}
@@ -79,4 +79,33 @@ a:hover{text-decoration: none;}
 .jieshao .erweima1{position: absolute;right: 0;top:0px;display: none;}
 .jieshao .san{margin-top: 10px;margin-left: 26px;}
 .jieshao .san span{margin-left: 40px;width: 50px;height: 22px;background: #65a130;display: inline-block;text-align: center;line-height: 22px;font-size: 12px;border: 1px solid #ddd;}
+.jieshao .s{margin-top: 20px;margin-left: 26px;position: relative;}
+.jieshao .s>span{margin-right: 20px;}
+.jieshao .s .youhuo{margin-left: 10px;color: #67a43d;}
+.jieshao .s .s1{display: inline-block;width: 100px;height: 40px;border: 1px solid #ccc;text-align: center;line-height: 40px;}
+.jieshao .dizhi{width: 300px;height: 160px;position: absolute;left: 50px;padding: 10px;border: 1px solid #ccc;top: 34px;background: #fff;display: none;}
+.jieshao .zm{width: 26%;height: 30px;float: left;border: 3px solid #65a130;border-bottom: none;line-height: 30px;text-align: center;}
+.jieshao .ym{width: 74%;height: 30px;float: right;border-bottom: 3px solid #65a130;}
+.jieshao .dizhi li{width: 25%;float: left;height: 40px;line-height: 40px;}
+.jieshao .dizhi a:hover{color:#65a130 ;}
 
+.w{margin-top: 20px;margin-left: 26px;}
+.w .w1{float: left;padding-top: 5px;}
+
+
+
+.mai{width: 600px;height: 100px;clear: both;text-align: center;border-bottom: 1px solid #ccc;}
+.mai input{width: 150px;height: 40px;}
+.gw_num{border: 1px solid #dbdbdb;width: 110px;line-height: 26px;overflow: hidden;margin-left: 36px;display: inline-block;}
+.gw_num em{display: block;height: 26px;width: 26px;float: left;color: #7A7979;border-right: 1px solid #dbdbdb;text-align: center;cursor: pointer;background: #ccc;}
+.gw_num .num{display: block;float: left;text-align: center;width: 52px;font-style: normal;font-size: 14px;line-height: 24px;border: 0;}
+.gw_num em.add{float: right;border-right: 0;border-left: 1px solid #dbdbdb;background: #ccc;}
+
+.g{height: 84px;width: 600px;padding: 20px;}
+.n .q{margin-right: 20px;}
+.m .w{margin-right: 20px;margin-left: 200px;}
+.g .p{margin-right: 20px;}
+.g .o{margin-top: 14px;}
+
+
+.jianjie{height: 500px;background: red;width: 100%;clear: both;}
